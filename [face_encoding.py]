@@ -1,0 +1,6 @@
+
+import face_recognition
+
+def encode_face(image):
+    face_encoding = face_recognition.face_encodings(image)[0]
+    return face_encoding
